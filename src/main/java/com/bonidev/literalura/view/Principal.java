@@ -139,7 +139,11 @@ public class Principal {
                 .map(mapper::toDTO)
                 .toList();
 
-        books.forEach(System.out::println);
+        if (!books.isEmpty()) {
+            books.forEach(System.out::println);
+        } else {
+            System.out.println("No se tienen libros registrados...\n");
+        }
     }
 
     /**
@@ -147,7 +151,12 @@ public class Principal {
      */
     private void showAllAuthors() {
         List<PersonEntity> authors = personService.getAllPersons();
-        authors.forEach(System.out::println);
+
+        if (!authors.isEmpty()) {
+            authors.forEach(System.out::println);
+        } else {
+            System.out.println("No se tienen autores registrados...\n");
+        }
     }
 
     /**
@@ -158,7 +167,12 @@ public class Principal {
         int yearRequested = scanner.nextInt();
         scanner.nextLine();
         List<PersonEntity> personsAlive = personService.getLivingPersonsInAGivenYear(yearRequested);
-        personsAlive.forEach(System.out::println);
+
+        if (!personsAlive.isEmpty()) {
+            personsAlive.forEach(System.out::println);
+        } else {
+            System.out.println("No se encontraron autores vivos en el año introducido...\n");
+        }
     }
 
     /**
@@ -176,7 +190,7 @@ public class Principal {
         String language = scanner.nextLine().toLowerCase();
 
         if (language.length() != 2) {
-            System.out.println("El código debe tener exactamente dos caracteres...");
+            System.out.println("El código debe tener exactamente dos caracteres...\n");
             return;
         }
 
@@ -185,6 +199,10 @@ public class Principal {
                 .map(mapper::toDTO)
                 .toList();
 
-        books.forEach(System.out::println);
+        if (!books.isEmpty()) {
+            books.forEach(System.out::println);
+        } else {
+            System.out.println("No se encontraron libros con ese idioma...\n");
+        }
     }
 }

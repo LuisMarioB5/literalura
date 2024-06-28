@@ -1,7 +1,7 @@
 # LiterAlura - Challenge ONE: Proyecto Finalizado
 
 ¡Bienvenido/a al repositorio del proyecto LiterAlura en Spring Boot! Este proyecto es la consolidación de mis conocimientos en
-los tres primeros curso de la formación **Java y Spring Boot G6 - ONE**, ofrecido por [Alura LATAM](https://www.aluracursos.com) en colaboración con [Oracle](https://www.oracle.com) en
+los tres primeros curso de la formación **Java y Spring Boot G6 - ONE**, ofrecido por [Alura LATAM](https://www.aluracursos.com) en colaboración con [Oracle](https://www.oracle.com/lad/) en
 el programa [Oracle Next Education](https://www.oracle.com/lad/education/oracle-next-education). Aquí encontrarás todos los recursos y el código fuente necesarios para 
 implementar y comprender el funcionamiento de este desafío enfocado en el manejo de datos literarios y autores. 
 
