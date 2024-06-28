@@ -1,0 +1,79 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Directorios de Maven
+/target/
+/logs/
+/dependency-reduced-pom.xml
+/release.properties
+/dependency/
+/.buildNumber
+
+# Directorios de IntelliJ IDEA
+/.idea/
+/*.iws
+/*.iml
+/*.ipr
+
+# Directorios específicos de IntelliJ IDEA
+/out/
+# Directorio de configuración de usuario de IntelliJ IDEA
+.idea/
+
+# Directorios de configuración de Eclipse
+/.settings/
+/.project
+/.classpath
+
+# Directorios del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de logs
+*.log
+
+# Archivos de propiedades locales
+*.local.properties
+
+# Archivos de test de Maven
+test-output/
+
+# Archivos de compilación
+*.class
+*.jar
+*.war
+*.ear
+
+# Archivos de configuración de dependencias
+.mvn/
